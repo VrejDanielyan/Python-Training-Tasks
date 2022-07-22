@@ -9,8 +9,8 @@ def test(key, value):
     for i in students:
         if i[key] == value:
             return True
-        else:
-            return False
+    return False
 
 
-print(test('class', 'VII'))
+
+print(test('class', 'VIIT'))

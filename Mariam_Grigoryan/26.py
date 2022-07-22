@@ -4,3 +4,7 @@ def only_odd(entire_list):
 
 
 print(only_odd([1, 12, 43, 54, 26, 94, 33, 86, 49, 55, 9]))
+
+
+# One line
+print([i for i in [1, 12, 43, 54, 26, 94, 33, 86, 49, 55, 9] if i%2==1])

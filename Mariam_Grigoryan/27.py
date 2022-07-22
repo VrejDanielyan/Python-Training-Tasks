@@ -4,3 +4,7 @@ def odd_or_even(list):
 
 
 print(odd_or_even([1, 2, 2, 3, 5, 34, 65, 76, 45, 33, 53]))
+
+
+# One line
+print(["Odd" if i%2==1 else "Even" for i in [1, 2, 2, 3, 5, 34, 65, 76, 45, 33, 53]])

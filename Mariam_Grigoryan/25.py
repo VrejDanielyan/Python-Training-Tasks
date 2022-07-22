@@ -4,3 +4,7 @@ def string_to_list(string):
 
 
 print(string_to_list("Mariam"))
+
+
+# One line
+print([i for i in "Mariam"])
